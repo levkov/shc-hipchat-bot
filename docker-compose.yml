@@ -1,7 +1,7 @@
 hipchat-bot:
   build: .
   ports:
-  - "80:80"
+  - "8090:80"
   - "222:22"
   - "9001:9001"
   hostname: hipchat-bot

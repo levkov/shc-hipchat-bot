@@ -13,4 +13,4 @@ COPY conf/default /etc/nginx/sites-enabled/default
 
 ADD app /opt/app/
 
-EXPOSE 80 9001
+EXPOSE 80
